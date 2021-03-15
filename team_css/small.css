@@ -60,6 +60,39 @@ main h1 {
     max-width: 540px;
     margin: 15px auto;
 }
+main img {
+    width: 225px;
+    border-radius: 120px;
+    margin: auto;
+}
+
+main div.canada {
+    display: inline;
+    padding-top: 10px;
+}
+.amir {
+    display: grid;
+}
+
+main div.rotterdam {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.josh {
+    display: grid;
+    grid-template-rows: 217px, 50px, 50px;
+}
+.josh img {
+    padding-bottom: 15px;
+}
+.ali {
+    display: grid;
+}
+
+.icon {
+    width: 50px;
+    border-radius: 0;
+}
 
 
 /* FOOTER STYLES */
